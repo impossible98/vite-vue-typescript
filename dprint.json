@@ -6,17 +6,19 @@
     "json": {
         "indentWidth": 4
     },
-    "markdown": {
-    },
-    "toml": {
-    },
+    "markdown": {},
+    "toml": {},
     "vue": {
         "indentWidth": 2
     },
-    "includes": ["**/*.{ts,tsx,js,jsx,cjs,mjs,json,md,toml,vue}"],
+    "includes": [
+        "**/*.{ts,tsx,js,jsx,cjs,mjs,json,md,toml,vue}"
+    ],
     "excludes": [
         "**/node_modules",
-        "**/*-lock.json"
+        "**/*-lock.json",
+
+        "**/dist"
     ],
     "plugins": [
         "https://plugins.dprint.dev/typescript-0.67.0.wasm",
