@@ -14,5 +14,8 @@ trim_trailing_whitespace = true
 [*.ts]
 indent_size = 2
 
+[*.vue]
+indent_size = 2
+
 [Makefile]
 indent_style = tab
